@@ -1,3 +1,5 @@
-console.log('hello');
-var x = 2
-console.log(x);
+function hello(){
+  return('hello world!!');
+}
+
+module.exports = hello;
